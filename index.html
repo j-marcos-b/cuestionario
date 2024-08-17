@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+    <div class="container">
+        <div id="pregunta1">
+            <h2>¿Quiere seguir hacia el área de Front-End o de Back-End?</h2>
+            <div class="btn">
+                <button id="btnFront">Front-End</button>
+                <button id="btnBack">Back-End</button>
+            </div>
+        </div>
+        <div id="pregunta2" class="hidden">
+            <h2>¿Quiere aprender React o aprender Vue?</h2>
+            <div class="btn">
+                <button id="btnReact">React</button>
+                <button id="btnVue">Vue</button>
+            </div>
+        </div>
+        <div id="pregunta3" class="hidden">
+            <h2>¿Quiere aprender C# o Java?</h2>
+            <div class="btn">
+                <button id="btnCSharp">C#</button>
+                <button id="btnJava">Java</button>
+            </div>
+        </div>
+        <div id="pregunta4" class="hidden">
+            <h2>¿Le gustaría seguir especializandose en el area elegida o convertirse en FullStack?</h2>
+            <div class="btn">
+                <button id="btnFullStack">FullStack</button>
+                <button id="btnEspecialista">Especialista</button>
+            </div>
+        </div>
+        <div id="pregunta5" class="hidden">
+            <h2>¿Qué tecnología le gustaría seguir estudiando?</h2>
+            <input type="text" placeholder="Tecnología...">
+        </div>
+        <div id="pregunta6" class="hidden">
+            <h2>¿Por qué eligió esa tecnología?</h2>
+            <input type="text" placeholder="Motivo...">
+        </div>
+        <div id="btn-enviar" class="hidden">
+            <h2>¡Muchas gracias por responder!</h2>
+            <button id="enviar" type="submit">Enviar</button>
+        </div>
+        <div id="mensajeEnviado" class="hidden">
+            <h2>Cuestionario enviado</h2>
+            <img class="img" src="img/botella.png" alt="botella con mensaje adentro">
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
